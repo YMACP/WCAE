@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <WcaeBuildRoot Condition="'$(WcaeBuildRoot)' == ''">$([System.Environment]::GetFolderPath(System.Environment+SpecialFolder.LocalApplicationData))\WCAE-build</WcaeBuildRoot>
+    <WcaeDependencyRoot Condition="'$(WcaeDependencyRoot)' == ''">$(WcaeBuildRoot)\dependencies</WcaeDependencyRoot>
+    <BaseIntermediateOutputPath>$(WcaeBuildRoot)\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+    <BaseOutputPath>$(WcaeBuildRoot)\bin\$(MSBuildProjectName)\</BaseOutputPath>
+    <DefaultItemExcludes>$(DefaultItemExcludes);bin\**;obj\**;dist\**;lib\**;tools\**</DefaultItemExcludes>
+  </PropertyGroup>
+</Project>

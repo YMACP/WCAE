@@ -1,0 +1,130 @@
+{
+    "PreparedUtc":  "2026-09-13T16:37:36.5343848Z",
+    "Purpose":  "Application-local x64 Visual C++ runtime closure for bundled wkhtmltopdf.exe on Windows 10/11",
+    "Source":  "Existing Microsoft-signed Redistributable runtime files from C:\\Windows\\System32; no SDK or compiler binaries",
+    "OfficialDeploymentDocumentation":  "https://learn.microsoft.com/en-us/cpp/windows/choosing-a-deployment-method?view=msvc-170",
+    "OfficialRuntimeDownload":  "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170",
+    "Files":  [
+                  {
+                      "FileName":  "msvcp140.dll",
+                      "SourcePath":  "C:\\Windows\\System32\\msvcp140.dll",
+                      "FileVersion":  "14.50.35719.0",
+                      "ProductVersion":  "14.50.35719.0",
+                      "SHA256":  "DEF46AA6A8F72F27BAFAC0C43334419486A4D1DCDB6C479A8EF7034B3E1FA4CB",
+                      "Length":  553552,
+                      "Machine":  "0x8664",
+                      "SignatureStatus":  "Valid",
+                      "Signer":  "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+                      "SignerThumbprint":  "BAC13DF18B37E808208A39D3A54CCE975FAC8C1D",
+                      "Imports":  [
+                                      "api-ms-win-crt-convert-l1-1-0.dll",
+                                      "api-ms-win-crt-environment-l1-1-0.dll",
+                                      "api-ms-win-crt-filesystem-l1-1-0.dll",
+                                      "api-ms-win-crt-heap-l1-1-0.dll",
+                                      "api-ms-win-crt-locale-l1-1-0.dll",
+                                      "api-ms-win-crt-math-l1-1-0.dll",
+                                      "api-ms-win-crt-runtime-l1-1-0.dll",
+                                      "api-ms-win-crt-stdio-l1-1-0.dll",
+                                      "api-ms-win-crt-string-l1-1-0.dll",
+                                      "api-ms-win-crt-time-l1-1-0.dll",
+                                      "api-ms-win-crt-utility-l1-1-0.dll",
+                                      "kernel32.dll",
+                                      "vcruntime140.dll",
+                                      "vcruntime140_1.dll"
+                                  ],
+                      "ForwardedExportDlls":  [
+
+                                              ]
+                  },
+                  {
+                      "FileName":  "vcruntime140.dll",
+                      "SourcePath":  "C:\\Windows\\System32\\vcruntime140.dll",
+                      "FileVersion":  "14.50.35719.0",
+                      "ProductVersion":  "14.50.35719.0",
+                      "SHA256":  "184146852727A9DB4EEA06178716BEC3CDBB1015C911F6B0F915B184AD7775B2",
+                      "Length":  123472,
+                      "Machine":  "0x8664",
+                      "SignatureStatus":  "Valid",
+                      "Signer":  "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+                      "SignerThumbprint":  "BAC13DF18B37E808208A39D3A54CCE975FAC8C1D",
+                      "Imports":  [
+                                      "api-ms-win-crt-convert-l1-1-0.dll",
+                                      "api-ms-win-crt-heap-l1-1-0.dll",
+                                      "api-ms-win-crt-runtime-l1-1-0.dll",
+                                      "api-ms-win-crt-stdio-l1-1-0.dll",
+                                      "api-ms-win-crt-string-l1-1-0.dll",
+                                      "kernel32.dll"
+                                  ],
+                      "ForwardedExportDlls":  [
+
+                                              ]
+                  },
+                  {
+                      "FileName":  "vcruntime140_1.dll",
+                      "SourcePath":  "C:\\Windows\\System32\\vcruntime140_1.dll",
+                      "FileVersion":  "14.50.35719.0",
+                      "ProductVersion":  "14.50.35719.0",
+                      "SHA256":  "E6BFB3662AB4B1969A73441DBE35C96D51441B6BFF8CF1FE7430BD5B246CA605",
+                      "Length":  47264,
+                      "Machine":  "0x8664",
+                      "SignatureStatus":  "Valid",
+                      "Signer":  "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+                      "SignerThumbprint":  "BAC13DF18B37E808208A39D3A54CCE975FAC8C1D",
+                      "Imports":  [
+                                      "api-ms-win-crt-heap-l1-1-0.dll",
+                                      "api-ms-win-crt-runtime-l1-1-0.dll",
+                                      "api-ms-win-crt-string-l1-1-0.dll",
+                                      "kernel32.dll",
+                                      "vcruntime140.dll"
+                                  ],
+                      "ForwardedExportDlls":  [
+
+                                              ]
+                  }
+              ],
+    "ImportSymbolVerification":  {
+                                     "status":  "PASS",
+                                     "checks":  [
+                                                    {
+                                                        "importer":  "wkhtmltopdf.exe",
+                                                        "library":  "msvcp140.dll",
+                                                        "symbols_verified":  3,
+                                                        "missing":  [
+
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "importer":  "wkhtmltopdf.exe",
+                                                        "library":  "vcruntime140.dll",
+                                                        "symbols_verified":  19,
+                                                        "missing":  [
+
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "importer":  "msvcp140.dll",
+                                                        "library":  "vcruntime140.dll",
+                                                        "symbols_verified":  17,
+                                                        "missing":  [
+
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "importer":  "msvcp140.dll",
+                                                        "library":  "vcruntime140_1.dll",
+                                                        "symbols_verified":  1,
+                                                        "missing":  [
+
+                                                                    ]
+                                                    },
+                                                    {
+                                                        "importer":  "vcruntime140_1.dll",
+                                                        "library":  "vcruntime140.dll",
+                                                        "symbols_verified":  5,
+                                                        "missing":  [
+
+                                                                    ]
+                                                    }
+                                                ]
+                                 }
+}

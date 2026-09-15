@@ -1,0 +1,512 @@
+[
+  {
+    "id": "BrotliSharpLib",
+    "version": "0.3.3",
+    "kind": "Transitive",
+    "nuget": "https://www.nuget.org/packages/BrotliSharpLib/0.3.3",
+    "authors": {
+      "text": "master131",
+      "attributes": {}
+    },
+    "licenseUrl": {
+      "text": "https://github.com/master131/BrotliSharpLib/blob/master/LICENSE",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://github.com/master131/BrotliSharpLib",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "Copyright (c) 2017-2019 master131",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/master131/BrotliSharpLib"
+      }
+    }
+  },
+  {
+    "id": "HtmlAgilityPack",
+    "version": "1.12.4",
+    "kind": "Direct",
+    "nuget": "https://www.nuget.org/packages/HtmlAgilityPack/1.12.4",
+    "authors": {
+      "text": "ZZZ Projects,Simon Mourrier,Jeff Klawiter,Stephan Grell",
+      "attributes": {}
+    },
+    "license": {
+      "text": "MIT",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/MIT",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "http://html-agility-pack.net/",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "Copyright © ZZZ Projects Inc.",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/zzzprojects/html-agility-pack/"
+      }
+    }
+  },
+  {
+    "id": "Microsoft.Data.Sqlite",
+    "version": "10.0.12",
+    "kind": "Direct",
+    "nuget": "https://www.nuget.org/packages/Microsoft.Data.Sqlite/10.0.12",
+    "authors": {
+      "text": "Microsoft",
+      "attributes": {}
+    },
+    "license": {
+      "text": "MIT",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/MIT",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://docs.microsoft.com/dotnet/standard/data/sqlite/",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "© Microsoft Corporation. All rights reserved.",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      }
+    }
+  },
+  {
+    "id": "Microsoft.Data.Sqlite.Core",
+    "version": "10.0.12",
+    "kind": "Transitive",
+    "nuget": "https://www.nuget.org/packages/Microsoft.Data.Sqlite.Core/10.0.12",
+    "authors": {
+      "text": "Microsoft",
+      "attributes": {}
+    },
+    "license": {
+      "text": "MIT",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/MIT",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://docs.microsoft.com/dotnet/standard/data/sqlite/",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "© Microsoft Corporation. All rights reserved.",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      }
+    }
+  },
+  {
+    "id": "Microsoft.NET.ILLink.Tasks",
+    "version": "10.0.12",
+    "kind": "Direct",
+    "nuget": "https://www.nuget.org/packages/Microsoft.NET.ILLink.Tasks/10.0.12",
+    "authors": {
+      "text": "Microsoft",
+      "attributes": {}
+    },
+    "license": {
+      "text": "MIT",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/MIT",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://dot.net/",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "© Microsoft Corporation. All rights reserved.",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      }
+    }
+  },
+  {
+    "id": "Microsoft.NETCore.App.Runtime.win-x64",
+    "version": "10.0.12",
+    "kind": "RuntimePack",
+    "nuget": "https://www.nuget.org/packages/Microsoft.NETCore.App.Runtime.win-x64/10.0.12",
+    "authors": {
+      "text": "Microsoft",
+      "attributes": {}
+    },
+    "license": {
+      "text": "MIT",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/MIT",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://dot.net/",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "© Microsoft Corporation. All rights reserved.",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      }
+    }
+  },
+  {
+    "id": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+    "version": "10.0.12",
+    "kind": "RuntimePack",
+    "nuget": "https://www.nuget.org/packages/Microsoft.WindowsDesktop.App.Runtime.win-x64/10.0.12",
+    "authors": {
+      "text": "Microsoft",
+      "attributes": {}
+    },
+    "license": {
+      "text": "MIT",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/MIT",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://dot.net/",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "© Microsoft Corporation. All rights reserved.",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      }
+    }
+  },
+  {
+    "id": "Newtonsoft.Json",
+    "version": "13.0.4",
+    "kind": "Direct",
+    "nuget": "https://www.nuget.org/packages/Newtonsoft.Json/13.0.4",
+    "authors": {
+      "text": "James Newton-King",
+      "attributes": {}
+    },
+    "license": {
+      "text": "MIT",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/MIT",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://www.newtonsoft.com/json",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "Copyright © James Newton-King 2008",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/JamesNK/Newtonsoft.Json",
+        "commit": "4e13299d4b0ec96bd4df9954ef646bd2d1b5bf2a"
+      }
+    }
+  },
+  {
+    "id": "Portable.BouncyCastle",
+    "version": "1.9.0",
+    "kind": "Direct",
+    "nuget": "https://www.nuget.org/packages/Portable.BouncyCastle/1.9.0",
+    "authors": {
+      "text": "Claire Novotny",
+      "attributes": {}
+    },
+    "licenseUrl": {
+      "text": "https://www.bouncycastle.org/csharp/licence.html",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://www.bouncycastle.org/csharp/",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "© 2000-2021 Legion of the Bouncy Castle Inc.",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/novotnyllc/bc-csharp",
+        "commit": "0f827cc3e74a8f45669fba5c525adacd6b897503"
+      }
+    }
+  },
+  {
+    "id": "ReverseMarkdown",
+    "version": "2.1.0",
+    "kind": "Direct",
+    "nuget": "https://www.nuget.org/packages/ReverseMarkdown/2.1.0",
+    "authors": {
+      "text": "Babu Annamalai",
+      "attributes": {}
+    },
+    "licenseUrl": {
+      "text": "https://github.com/mysticmind/reversemarkdown-net/blob/master/LICENSE",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://github.com/mysticmind/reversemarkdown-net",
+      "attributes": {}
+    }
+  },
+  {
+    "id": "SQLitePCLRaw.bundle_e_sqlite3",
+    "version": "2.1.12",
+    "kind": "Transitive",
+    "nuget": "https://www.nuget.org/packages/SQLitePCLRaw.bundle_e_sqlite3/2.1.12",
+    "authors": {
+      "text": "Eric Sink",
+      "attributes": {}
+    },
+    "license": {
+      "text": "Apache-2.0",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/Apache-2.0",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "Copyright 2014-2024 SourceGear, LLC",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      }
+    }
+  },
+  {
+    "id": "SQLitePCLRaw.core",
+    "version": "2.1.12",
+    "kind": "Transitive",
+    "nuget": "https://www.nuget.org/packages/SQLitePCLRaw.core/2.1.12",
+    "authors": {
+      "text": "Eric Sink",
+      "attributes": {}
+    },
+    "license": {
+      "text": "Apache-2.0",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/Apache-2.0",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "Copyright 2014-2024 SourceGear, LLC",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      }
+    }
+  },
+  {
+    "id": "SQLitePCLRaw.lib.e_sqlite3",
+    "version": "2.1.12",
+    "kind": "Transitive",
+    "nuget": "https://www.nuget.org/packages/SQLitePCLRaw.lib.e_sqlite3/2.1.12",
+    "authors": {
+      "text": "Eric Sink",
+      "attributes": {}
+    },
+    "license": {
+      "text": "Apache-2.0",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/Apache-2.0",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "Copyright 2014-2024 SourceGear, LLC",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      }
+    }
+  },
+  {
+    "id": "SQLitePCLRaw.provider.e_sqlite3",
+    "version": "2.1.12",
+    "kind": "Transitive",
+    "nuget": "https://www.nuget.org/packages/SQLitePCLRaw.provider.e_sqlite3/2.1.12",
+    "authors": {
+      "text": "Eric Sink",
+      "attributes": {}
+    },
+    "license": {
+      "text": "Apache-2.0",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/Apache-2.0",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "Copyright 2014-2024 SourceGear, LLC",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/ericsink/SQLitePCL.raw"
+      }
+    }
+  },
+  {
+    "id": "Titanium.Web.Proxy",
+    "version": "3.1.1397",
+    "kind": "Direct",
+    "nuget": "https://www.nuget.org/packages/Titanium.Web.Proxy/3.1.1397",
+    "authors": {
+      "text": "Titanium Web Proxy GitHub Contributors",
+      "attributes": {}
+    },
+    "licenseUrl": {
+      "text": "https://github.com/justcoding121/Titanium-Web-Proxy/blob/develop/LICENSE",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://github.com/justcoding121/Titanium-Web-Proxy",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "Copyright © Titanium.  All rights reserved.",
+      "attributes": {}
+    }
+  },
+  {
+    "id": "YamlDotNet",
+    "version": "16.3.0",
+    "kind": "Direct",
+    "nuget": "https://www.nuget.org/packages/YamlDotNet/16.3.0",
+    "authors": {
+      "text": "Antoine Aubry",
+      "attributes": {}
+    },
+    "license": {
+      "text": "MIT",
+      "attributes": {
+        "type": "expression"
+      }
+    },
+    "licenseUrl": {
+      "text": "https://licenses.nuget.org/MIT",
+      "attributes": {}
+    },
+    "projectUrl": {
+      "text": "https://github.com/aaubry/YamlDotNet/wiki",
+      "attributes": {}
+    },
+    "copyright": {
+      "text": "Copyright (c) Antoine Aubry and contributors",
+      "attributes": {}
+    },
+    "repository": {
+      "text": null,
+      "attributes": {
+        "type": "git",
+        "url": "https://github.com/aaubry/YamlDotNet",
+        "commit": "ae480660f4fb26f3eb0b41c1d1fcf21c0e9d9e73"
+      }
+    }
+  }
+]

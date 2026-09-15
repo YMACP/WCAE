@@ -1,0 +1,133 @@
+[
+  {
+    "file": "BrotliSharpLib-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/master131/BrotliSharpLib/master/LICENSE",
+    "bytes": 1066
+  },
+  {
+    "file": "dotnet-runtime-10.0.12-LICENSE.txt",
+    "source": "https://www.nuget.org/packages/Microsoft.NETCore.App.Runtime.win-x64/10.0.12",
+    "bytes": 1139,
+    "originalFile": "LICENSE.TXT"
+  },
+  {
+    "file": "dotnet-runtime-10.0.12-THIRD-PARTY-NOTICES.txt",
+    "source": "https://www.nuget.org/packages/Microsoft.NETCore.App.Runtime.win-x64/10.0.12",
+    "bytes": 78041,
+    "originalFile": "THIRD-PARTY-NOTICES.TXT"
+  },
+  {
+    "file": "dotnet-sdk-10.0.401-LICENSE.txt",
+    "source": "https://dotnet.microsoft.com/en-us/download/dotnet/10.0",
+    "bytes": 9519,
+    "originalFile": "local WCAE-build/dotnet layout/LICENSE.txt"
+  },
+  {
+    "file": "dotnet-sdk-10.0.401-THIRD-PARTY-NOTICES.txt",
+    "source": "https://dotnet.microsoft.com/en-us/download/dotnet/10.0",
+    "bytes": 78887,
+    "originalFile": "local WCAE-build/dotnet layout/ThirdPartyNotices.txt"
+  },
+  {
+    "file": "dotnet-source-10.0.12-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/dotnet/dotnet/95017c711e6afc1085133d440e42b4bd78155701/LICENSE.TXT",
+    "bytes": 1115
+  },
+  {
+    "file": "dotnet-windowsdesktop-10.0.12-LICENSE.txt",
+    "source": "https://www.nuget.org/packages/Microsoft.WindowsDesktop.App.Runtime.win-x64/10.0.12",
+    "bytes": 1137,
+    "originalFile": "LICENSE"
+  },
+  {
+    "file": "dotnet-winforms-10.0.12-THIRD-PARTY-NOTICES.txt",
+    "source": "https://raw.githubusercontent.com/dotnet/winforms/v10.0.12/THIRD-PARTY-NOTICES.TXT",
+    "bytes": 1966
+  },
+  {
+    "file": "dotnet-wpf-10.0.12-THIRD-PARTY-NOTICES.txt",
+    "source": "https://raw.githubusercontent.com/dotnet/wpf/v10.0.12/THIRD-PARTY-NOTICES.TXT",
+    "bytes": 2703
+  },
+  {
+    "file": "Google-Brotli-0.6.0-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/google/brotli/v0.6.0/LICENSE",
+    "bytes": 1084
+  },
+  {
+    "file": "GPL-3.0.txt",
+    "source": "https://github.com/GyanD/codexffmpeg/releases/tag/9.0.1",
+    "bytes": 35147,
+    "originalFile": "FFmpeg archive/LICENSE"
+  },
+  {
+    "file": "HtmlAgilityPack-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/zzzprojects/html-agility-pack/master/LICENSE",
+    "bytes": 1045
+  },
+  {
+    "file": "MEDIA_TOOL_UPSTREAM.json",
+    "source": "build-input media tool release checksums",
+    "bytes": 445,
+    "originalFile": "UPSTREAM.json"
+  },
+  {
+    "file": "Newtonsoft.Json-13.0.4-LICENSE.txt",
+    "source": "https://www.nuget.org/packages/Newtonsoft.Json/13.0.4",
+    "bytes": 1104,
+    "originalFile": "LICENSE.md"
+  },
+  {
+    "file": "Portable.BouncyCastle-1.9.0-LICENSE.html",
+    "source": "https://raw.githubusercontent.com/novotnyllc/bc-csharp/0f827cc3e74a8f45669fba5c525adacd6b897503/crypto/License.html",
+    "bytes": 1847
+  },
+  {
+    "file": "ReverseMarkdown-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/mysticmind/reversemarkdown-net/master/LICENSE",
+    "bytes": 1082
+  },
+  {
+    "file": "SQLite-copyright.html",
+    "source": "https://www.sqlite.org/copyright.html",
+    "bytes": 8351
+  },
+  {
+    "file": "SQLitePCLRaw-2.1.12-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/ericsink/SQLitePCL.raw/v2.1.12/LICENSE.TXT",
+    "bytes": 11358
+  },
+  {
+    "file": "Titanium.Web.Proxy-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/justcoding121/Titanium-Web-Proxy/develop/LICENSE",
+    "bytes": 1085
+  },
+  {
+    "file": "VC_RUNTIME_SOURCES.json",
+    "source": "build-input tools/vc-runtime-sources.json",
+    "licenseSource": "https://visualstudio.microsoft.com/license-terms/vs2026-ga-visualcpp-v14-redist-runtime/",
+    "bytes": 7892
+  },
+  {
+    "file": "wkhtmltopdf-0.12.6-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/wkhtmltopdf/wkhtmltopdf/0.12.6/LICENSE",
+    "bytes": 7651
+  },
+  {
+    "file": "YamlDotNet-16.3.0-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/aaubry/YamlDotNet/ae480660f4fb26f3eb0b41c1d1fcf21c0e9d9e73/LICENSE.txt",
+    "bytes": 1110,
+    "sha256": "daea8b7f1b2bab48ea12ad50b0ce91634669d99d7dd0cb64aed8dffeeef69ed3"
+  },
+  {
+    "file": "yt-dlp-2026.08.19-LICENSE.txt",
+    "source": "https://github.com/yt-dlp/yt-dlp/blob/2026.08.19/LICENSE",
+    "bytes": 1211,
+    "originalFile": "LICENSE"
+  },
+  {
+    "file": "yt-dlp-2026.08.19-THIRD_PARTY_LICENSES.txt",
+    "source": "https://raw.githubusercontent.com/yt-dlp/yt-dlp/2026.08.19/THIRD_PARTY_LICENSES.txt",
+    "bytes": 243550
+  }
+]

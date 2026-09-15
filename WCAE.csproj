@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>WCAE</AssemblyName>
+    <RootNamespace>WCAE</RootNamespace>
+    <AssemblyTitle>WCAE</AssemblyTitle>
+    <Product>WCAE</Product>
+    <Description>微信公众号文章收集与导出工具</Description>
+    <Version>1.0.0</Version>
+    <FileVersion>$(Version)</FileVersion>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\WCAE.ico</ApplicationIcon>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <RuntimeFrameworkVersion>10.0.12</RuntimeFrameworkVersion>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeAllContentForSelfExtract>false</IncludeAllContentForSelfExtract>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
+    <PublishTrimmed>false</PublishTrimmed>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
+    <PackageReference Include="Titanium.Web.Proxy" Version="3.1.1397" />
+    <PackageReference Include="Portable.BouncyCastle" Version="1.9.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.12" />
+    <PackageReference Include="ReverseMarkdown" Version="2.1.0" />
+    <PackageReference Include="YamlDotNet" Version="16.3.0" />
+    <PackageReference Include="ModelContextProtocol.AspNetCore" Version="2.2.0" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\WCAE.ico" LogicalName="WCAE.ApplicationIcon" />
+    <EmbeddedResource Include="README.md;docs\THIRD_PARTY_NOTICES.md;docs\licenses\**\*" LogicalName="WCAE.Documentation.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="Native\ProxyBridge\LICENSE" LogicalName="WCAE.Documentation.ProxyBridge-MIT-LICENSE.txt" />
+  </ItemGroup>
+  <Target Name="PrepareLazyExportPayload" BeforeTargets="AssignTargetPaths">
+    <Exec Command="powershell.exe -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildProjectDirectory)\prepare-bundle.ps1&quot; -DependencyRoot &quot;$(WcaeDependencyRoot)&quot; -OutputDirectory &quot;$(WcaeBuildRoot)\bundle&quot;" />
+    <ItemGroup>
+      <EmbeddedResource Include="$(WcaeBuildRoot)\bundle\runtime.zip" LogicalName="WCAE.Tools.runtime.zip" />
+      <EmbeddedResource Include="$(WcaeBuildRoot)\bundle\pdf.zip" LogicalName="WCAE.Tools.pdf.zip" />
+      <EmbeddedResource Include="$(WcaeBuildRoot)\bundle\media.zip" LogicalName="WCAE.Tools.media.zip" />
+      <EmbeddedResource Include="$(WcaeBuildRoot)\bundle\ingress.zip" LogicalName="WCAE.Tools.ingress.zip" />
+      <EmbeddedResource Include="$(WcaeBuildRoot)\bundle\manifest.json" LogicalName="WCAE.Tools.manifest.json" />
+    </ItemGroup>
+  </Target>
+</Project>

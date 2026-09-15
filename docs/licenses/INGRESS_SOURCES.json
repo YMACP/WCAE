@@ -1,0 +1,28 @@
+{
+  "proxyBridge": {
+    "repository": "https://github.com/InterceptSuite/ProxyBridge",
+    "commit": "02703a0672a8b94011a4698368a392f7734c10dc",
+    "source": "../../Native/ProxyBridge/src",
+    "license": "MIT",
+    "licenseFile": "../../Native/ProxyBridge/LICENSE",
+    "modifications": ["WCAE TCP port filter", "dynamically allocated relay port", "relay readiness check", "exclusive relay bind", "interruptible cleanup waits", "LLVM-MinGW inline compatibility"]
+  },
+  "winDivert": {
+    "version": "2.2.2-A",
+    "binaryUrl": "https://github.com/basil00/WinDivert/releases/download/v2.2.2/WinDivert-2.2.2-A.zip",
+    "archiveSha256": "63CB41763BB4B20F600B6DE04E991A9C2BE73279E317D4D82F237B150C5F3F15",
+    "sourceUrl": "https://github.com/basil00/WinDivert/tree/v2.2.2",
+    "license": "LGPL-3.0",
+    "licenseFile": "WinDivert-2.2.2-LICENSE.txt",
+    "unmodifiedRuntimeFiles": {
+      "WinDivert.dll": "C1E060EE19444A259B2162F8AF0F3FE8C4428A1C6F694DCE20DE194AC8D7D9A2",
+      "WinDivert64.sys": "8DA085332782708D8767BCACE5327A6EC7283C17CFB85E40B03CD2323A90DDC2"
+    }
+  },
+  "compiler": {
+    "version": "llvm-mingw-20260908-ucrt-x86_64",
+    "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20260908/llvm-mingw-20260908-ucrt-x86_64.zip",
+    "archiveSha256": "1BCF74D06B724AEECAA6412CA85F5B26FB1DA770E7CDCEFA9263C9C5C3AD34B6",
+    "redistributedInApplication": false
+  }
+}

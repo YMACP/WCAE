@@ -1,0 +1,114 @@
+{
+  "recorded_at_utc": "2026-09-15T10:10:33.682385+00:00",
+  "method": "Read local restored NuGet nuspec/nupkg metadata; no network lookup. ASP.NET license and third-party notice copied byte-for-byte. Existing full Apache-2.0 and MIT texts reused for expression-only packages; their package-specific copyright is preserved.",
+  "packages": [
+    {
+      "id": "ModelContextProtocol",
+      "version": "2.2.0",
+      "authors": "ModelContextProtocol",
+      "copyright": "© Model Context Protocol a Series of LF Projects, LLC.",
+      "license": "Apache-2.0",
+      "license_type": "expression",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+        "commit": "6fa3825973949a9c4f0cd8af344e15a8db09dc35"
+      },
+      "nuspec_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\modelcontextprotocol\\2.2.0\\modelcontextprotocol.nuspec",
+      "nuspec_sha256": "b226feb3d8bddefccc36106e0545382888b150c7b8ea53520999c5abba33e7f0",
+      "nupkg_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\modelcontextprotocol\\2.2.0\\modelcontextprotocol.2.2.0.nupkg",
+      "nupkg_sha256": "d9704e12d5412c97147c74dd89524410bbad86e09bc96472134d9c7269d5c6fc",
+      "package_license_notice_entries": [],
+      "license_text_reference": "SQLitePCLRaw-2.1.12-LICENSE.txt",
+      "license_reference_note": "Reuses the existing full standard license text. Package-specific copyright and exact license declaration are preserved here and in ../THIRD_PARTY_NOTICES.md."
+    },
+    {
+      "id": "ModelContextProtocol.Core",
+      "version": "2.2.0",
+      "authors": "ModelContextProtocol",
+      "copyright": "© Model Context Protocol a Series of LF Projects, LLC.",
+      "license": "Apache-2.0",
+      "license_type": "expression",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+        "commit": "6fa3825973949a9c4f0cd8af344e15a8db09dc35"
+      },
+      "nuspec_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\modelcontextprotocol.core\\2.2.0\\modelcontextprotocol.core.nuspec",
+      "nuspec_sha256": "1c25587a2aa82c679dcfd74b3089732eaa76012bb676b3be8cdd5915b900ceb0",
+      "nupkg_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\modelcontextprotocol.core\\2.2.0\\modelcontextprotocol.core.2.2.0.nupkg",
+      "nupkg_sha256": "146b28079d752ce216651f48287f5846e9061e1525c08181c3854fef1a1b7aba",
+      "package_license_notice_entries": [],
+      "license_text_reference": "SQLitePCLRaw-2.1.12-LICENSE.txt",
+      "license_reference_note": "Reuses the existing full standard license text. Package-specific copyright and exact license declaration are preserved here and in ../THIRD_PARTY_NOTICES.md."
+    },
+    {
+      "id": "ModelContextProtocol.AspNetCore",
+      "version": "2.2.0",
+      "authors": "ModelContextProtocol",
+      "copyright": "© Model Context Protocol a Series of LF Projects, LLC.",
+      "license": "Apache-2.0",
+      "license_type": "expression",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+        "commit": "6fa3825973949a9c4f0cd8af344e15a8db09dc35"
+      },
+      "nuspec_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\modelcontextprotocol.aspnetcore\\2.2.0\\modelcontextprotocol.aspnetcore.nuspec",
+      "nuspec_sha256": "46d51cd7b1c77f9e2bc42c5bed6720f7928df25696347c98134465258ee963fd",
+      "nupkg_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\modelcontextprotocol.aspnetcore\\2.2.0\\modelcontextprotocol.aspnetcore.2.2.0.nupkg",
+      "nupkg_sha256": "71b8670f302813f3765e4ba868524aea7f08e6d225290e685cdc2313e9bd8e27",
+      "package_license_notice_entries": [],
+      "license_text_reference": "SQLitePCLRaw-2.1.12-LICENSE.txt",
+      "license_reference_note": "Reuses the existing full standard license text. Package-specific copyright and exact license declaration are preserved here and in ../THIRD_PARTY_NOTICES.md."
+    },
+    {
+      "id": "Microsoft.Extensions.AI.Abstractions",
+      "version": "10.8.3",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "license": "MIT",
+      "license_type": "expression",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/extensions",
+        "commit": "ccb356f31db9d894807c4fd0c97c2f41553d1524"
+      },
+      "nuspec_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.8.3\\microsoft.extensions.ai.abstractions.nuspec",
+      "nuspec_sha256": "9f2e355f903f871fd84582786988d347a5e9fefdd0896925044efa1aa6916a72",
+      "nupkg_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.8.3\\microsoft.extensions.ai.abstractions.10.8.3.nupkg",
+      "nupkg_sha256": "7be7e10d0663efb94ddbed605d5c03ccfe80bb6852ca44cdba1dd1e78ee7ca76",
+      "package_license_notice_entries": [],
+      "license_text_reference": "dotnet-source-10.0.12-LICENSE.txt",
+      "license_reference_note": "Reuses the existing full standard license text. Package-specific copyright and exact license declaration are preserved here and in ../THIRD_PARTY_NOTICES.md."
+    },
+    {
+      "id": "Microsoft.AspNetCore.App.Runtime.win-x64",
+      "version": "10.0.12",
+      "authors": "Microsoft",
+      "copyright": "© Microsoft Corporation. All rights reserved.",
+      "license": "MIT",
+      "license_type": "expression",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/dotnet/dotnet",
+        "commit": "95017c711e6afc1085133d440e42b4bd78155701"
+      },
+      "nuspec_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.12\\microsoft.aspnetcore.app.runtime.win-x64.nuspec",
+      "nuspec_sha256": "6f3d800ff6669f05fab40d3c9fcfe3ab162c2d36717d78ef39d6e1baa0eabc59",
+      "nupkg_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.12\\microsoft.aspnetcore.app.runtime.win-x64.10.0.12.nupkg",
+      "nupkg_sha256": "59025d88c8f5178e8569f91c7cbc56ad3ead3d83a777477d17fade3f9cdd8103",
+      "package_license_notice_entries": [
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.TXT"
+      ],
+      "license_text_reference": "dotnet-runtime-10.0.12-LICENSE.txt",
+      "license_reference_note": "Package LICENSE is byte-identical to the retained .NET runtime license, so both use one copy. THIRD-PARTY-NOTICES is retained byte-for-byte. Original package sources and checksums are unchanged.",
+      "license_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.12\\LICENSE.txt",
+      "license_sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+      "notice_reference": "dotnet-aspnetcore-10.0.12-THIRD-PARTY-NOTICES.txt",
+      "notice_source": "E:\\WCAE-build-cache\\account-name-fix\\cli\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.12\\THIRD-PARTY-NOTICES.txt",
+      "notice_sha256": "307d014f65d8482314f1400ddeae7a0cbabb96c2207bcc77f6233cc10588e5d9"
+    }
+  ]
+}
